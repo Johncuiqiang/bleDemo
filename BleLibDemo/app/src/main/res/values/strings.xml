@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">BleLibDemo</string>
+    <string name="unknow_ble">unknow_device</string>
+    <string name="unknow_address">unknow_address</string>
+</resources>

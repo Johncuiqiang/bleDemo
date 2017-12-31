@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="cuiqiang.ling.ai.blelibdemo.MainActivity">
+
+    <EditText
+        android:id="@+id/et_ble_msg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="蓝牙消息"/>
+
+    <Button
+        android:id="@+id/btn_ble_client"
+        android:layout_below="@+id/et_ble_msg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text= "点击跳转客户端界面" />
+
+    <Button
+        android:id="@+id/btn_ble_device"
+        android:layout_below="@+id/btn_ble_client"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text= "点击跳转服务端界面" />
+
+    <Button
+        android:id="@+id/btn_ble_avrcp"
+        android:layout_below="@+id/btn_ble_device"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="蓝牙音箱" />
+
+    <Button
+        android:id="@+id/btn_ble_send"
+        android:layout_below="@+id/btn_ble_avrcp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="点击跳转客户端联网界面"/>
+
+    <Button
+        android:id="@+id/btn_ble_close"
+        android:layout_below="@+id/btn_ble_send"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="点击跳转设备端蓝牙界面"/>
+
+    <Button
+        android:id="@+id/btn_ble_search"
+        android:layout_below="@+id/btn_ble_close"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text= "客户端蓝牙搜索" />
+
+</RelativeLayout>
